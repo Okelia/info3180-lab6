@@ -48,7 +48,7 @@ const NewsList = {
     let self = this;
     fetch('https://newsapi.org/v2/top-headlines?country=us', {
       headers:{
-        'Authorization': 'Bearer <place token here>' 
+        'Authorization': 'Bearer <place token her>' 
       }
     })
     .then(function(response){
